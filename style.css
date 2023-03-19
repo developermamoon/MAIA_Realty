@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+    --roboto: font-family: 'Roboto', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage .banner{
+    background-image: url(images/Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.banner h1{
+    font-size: 200px;
+}
+
+.banner p{
+    font-size: 20px;
+    font-family: var(--roboto)
+}
+
+.banner button{
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+}
